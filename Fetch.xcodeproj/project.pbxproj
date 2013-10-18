@@ -16,7 +16,7 @@
 		7EDB52EB1811988900DA82C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB52EA1811988900DA82C2 /* AppDelegate.m */; };
 		7EDB52EE1811988900DA82C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB52EC1811988900DA82C2 /* Main.storyboard */; };
 		7EDB52F11811988900DA82C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB52F01811988900DA82C2 /* ViewController.m */; };
-		7EDB52F41811988900DA82C2 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB52F31811988900DA82C2 /* MyScene.m */; };
+		7EDB52F41811988900DA82C2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB52F31811988900DA82C2 /* GameScene.m */; };
 		7EDB52F61811988900DA82C2 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB52F51811988900DA82C2 /* Spaceship.png */; };
 		7EDB52F81811988900DA82C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB52F71811988900DA82C2 /* Images.xcassets */; };
 		7EDB52FF1811988A00DA82C2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDB52FE1811988A00DA82C2 /* XCTest.framework */; };
@@ -51,8 +51,8 @@
 		7EDB52ED1811988900DA82C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EDB52EF1811988900DA82C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7EDB52F01811988900DA82C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7EDB52F21811988900DA82C2 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		7EDB52F31811988900DA82C2 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		7EDB52F21811988900DA82C2 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		7EDB52F31811988900DA82C2 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		7EDB52F51811988900DA82C2 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		7EDB52F71811988900DA82C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7EDB52FD1811988A00DA82C2 /* FetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,8 +126,8 @@
 				7EDB52EC1811988900DA82C2 /* Main.storyboard */,
 				7EDB52EF1811988900DA82C2 /* ViewController.h */,
 				7EDB52F01811988900DA82C2 /* ViewController.m */,
-				7EDB52F21811988900DA82C2 /* MyScene.h */,
-				7EDB52F31811988900DA82C2 /* MyScene.m */,
+				7EDB52F21811988900DA82C2 /* GameScene.h */,
+				7EDB52F31811988900DA82C2 /* GameScene.m */,
 				7EDB52F51811988900DA82C2 /* Spaceship.png */,
 				7EDB52F71811988900DA82C2 /* Images.xcassets */,
 				7EDB52E11811988900DA82C2 /* Supporting Files */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EDB52F41811988900DA82C2 /* MyScene.m in Sources */,
+				7EDB52F41811988900DA82C2 /* GameScene.m in Sources */,
 				7EDB52F11811988900DA82C2 /* ViewController.m in Sources */,
 				7EDB52EB1811988900DA82C2 /* AppDelegate.m in Sources */,
 				7EDB52E71811988900DA82C2 /* main.m in Sources */,

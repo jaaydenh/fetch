@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 codepath. All rights reserved.
 //
 
-#import "MyScene.h"
+#import "GameScene.h"
 
-@implementation MyScene
+@implementation GameScene
 
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
@@ -24,6 +24,8 @@
                                        CGRectGetMidY(self.frame));
         
         [self addChild:myLabel];
+        
+        [self layoutGameObjects];
     }
     return self;
 }
@@ -34,16 +36,20 @@
     for (UITouch *touch in touches) {
         CGPoint location = [touch locationInNode:self];
         
-        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
+        //SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
         
-        sprite.position = location;
+        //sprite.position = location;
         
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
+        //SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
         
-        [sprite runAction:[SKAction repeatActionForever:action]];
+        //[sprite runAction:[SKAction repeatActionForever:action]];
         
-        [self addChild:sprite];
+        //[self addChild:sprite];
     }
+}
+
+-(void)layoutGameObjects {
+    
 }
 
 -(void)update:(CFTimeInterval)currentTime {
