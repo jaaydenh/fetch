@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E87A20418124CA800E3076C /* Objects.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7E87A20318124CA800E3076C /* Objects.atlas */; };
 		7EDB52D91811988900DA82C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDB52D81811988900DA82C2 /* Foundation.framework */; };
 		7EDB52DB1811988900DA82C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDB52DA1811988900DA82C2 /* CoreGraphics.framework */; };
 		7EDB52DD1811988900DA82C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDB52DC1811988900DA82C2 /* UIKit.framework */; };
@@ -17,7 +18,6 @@
 		7EDB52EE1811988900DA82C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB52EC1811988900DA82C2 /* Main.storyboard */; };
 		7EDB52F11811988900DA82C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB52F01811988900DA82C2 /* ViewController.m */; };
 		7EDB52F41811988900DA82C2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB52F31811988900DA82C2 /* GameScene.m */; };
-		7EDB52F61811988900DA82C2 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB52F51811988900DA82C2 /* Spaceship.png */; };
 		7EDB52F81811988900DA82C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB52F71811988900DA82C2 /* Images.xcassets */; };
 		7EDB52FF1811988A00DA82C2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDB52FE1811988A00DA82C2 /* XCTest.framework */; };
 		7EDB53001811988A00DA82C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDB52D81811988900DA82C2 /* Foundation.framework */; };
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E87A20318124CA800E3076C /* Objects.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Objects.atlas; sourceTree = "<group>"; };
 		7EDB52D51811988900DA82C2 /* Fetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDB52D81811988900DA82C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7EDB52DA1811988900DA82C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,7 +54,6 @@
 		7EDB52F01811988900DA82C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7EDB52F21811988900DA82C2 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		7EDB52F31811988900DA82C2 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		7EDB52F51811988900DA82C2 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		7EDB52F71811988900DA82C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7EDB52FD1811988A00DA82C2 /* FetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDB52FE1811988A00DA82C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -87,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E87A1FC1812460C00E3076C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7E87A20318124CA800E3076C /* Objects.atlas */,
+			);
+			path = Assets;
+			sourceTree = SOURCE_ROOT;
+		};
 		7EDB52CC1811988900DA82C2 = {
 			isa = PBXGroup;
 			children = (
@@ -128,8 +136,8 @@
 				7EDB52F01811988900DA82C2 /* ViewController.m */,
 				7EDB52F21811988900DA82C2 /* GameScene.h */,
 				7EDB52F31811988900DA82C2 /* GameScene.m */,
-				7EDB52F51811988900DA82C2 /* Spaceship.png */,
 				7EDB52F71811988900DA82C2 /* Images.xcassets */,
+				7E87A1FC1812460C00E3076C /* Assets */,
 				7EDB52E11811988900DA82C2 /* Supporting Files */,
 			);
 			path = Fetch;
@@ -242,7 +250,7 @@
 			files = (
 				7EDB52E51811988900DA82C2 /* InfoPlist.strings in Resources */,
 				7EDB52F81811988900DA82C2 /* Images.xcassets in Resources */,
-				7EDB52F61811988900DA82C2 /* Spaceship.png in Resources */,
+				7E87A20418124CA800E3076C /* Objects.atlas in Resources */,
 				7EDB52EE1811988900DA82C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +484,7 @@
 				7EDB53101811988A00DA82C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EDB53111811988A00DA82C2 /* Build configuration list for PBXNativeTarget "FetchTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +493,7 @@
 				7EDB53131811988A00DA82C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,7 @@
 
 #import "GameScene.h"
 
+
 @implementation GameScene
 
 -(id)initWithSize:(CGSize)size {    
@@ -49,7 +50,15 @@
 }
 
 -(void)layoutGameObjects {
+
+    SKTextureAtlas *atlas = [SKTextureAtlas atlasNamed:@"Objects"];
+
+    SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithTexture:[atlas textureNamed:@"clock.png"]];
     
+    sprite.position = CGPointMake(100, 100);
+
+    sprite.size = CGSizeMake(40.0, 40.0);
+    [self addChild:sprite];
 }
 
 -(void)update:(CFTimeInterval)currentTime {
