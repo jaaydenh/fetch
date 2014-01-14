@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E7AA27C187B9BB500D55C24 /* FTGameNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7AA27B187B9BB500D55C24 /* FTGameNode.m */; };
 		7E87A20418124CA800E3076C /* Objects.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7E87A20318124CA800E3076C /* Objects.atlas */; };
 		7EDB52D91811988900DA82C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDB52D81811988900DA82C2 /* Foundation.framework */; };
 		7EDB52DB1811988900DA82C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDB52DA1811988900DA82C2 /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E7AA27A187B9BB500D55C24 /* FTGameNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGameNode.h; sourceTree = "<group>"; };
+		7E7AA27B187B9BB500D55C24 /* FTGameNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGameNode.m; sourceTree = "<group>"; };
 		7E87A20318124CA800E3076C /* Objects.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Objects.atlas; sourceTree = "<group>"; };
 		7EDB52D51811988900DA82C2 /* Fetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDB52D81811988900DA82C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,6 +132,8 @@
 		7EDB52E01811988900DA82C2 /* Fetch */ = {
 			isa = PBXGroup;
 			children = (
+				7E7AA27A187B9BB500D55C24 /* FTGameNode.h */,
+				7E7AA27B187B9BB500D55C24 /* FTGameNode.m */,
 				7EDB52E91811988900DA82C2 /* AppDelegate.h */,
 				7EDB52EA1811988900DA82C2 /* AppDelegate.m */,
 				7EDB52EC1811988900DA82C2 /* Main.storyboard */,
@@ -274,6 +279,7 @@
 				7EDB52F11811988900DA82C2 /* ViewController.m in Sources */,
 				7EDB52EB1811988900DA82C2 /* AppDelegate.m in Sources */,
 				7EDB52E71811988900DA82C2 /* main.m in Sources */,
+				7E7AA27C187B9BB500D55C24 /* FTGameNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
