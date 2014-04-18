@@ -8,15 +8,16 @@
 
 #import "FTGameNode.h"
 
+
 @implementation FTGameNode
 
-- (id) initWithImageNamed:(NSString *)name {
+- (id)initWithImageNamed:(NSString *)name {
     if (self = [super init]) {
         self = [FTGameNode spriteNodeWithImageNamed:name];
-        //[self setUpHeroDetails];
-        
     }
     return self;
 }
+
+
 
 @end

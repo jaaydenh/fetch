@@ -15,6 +15,18 @@
 {
     [super viewDidLoad];
 
+    if ([self respondsToSelector:@selector(setNeedsStatusBarAppearanceUpdate)]) {
+        // iOS 7
+        [self performSelector:@selector(setNeedsStatusBarAppearanceUpdate)];
+    } else {
+        // iOS 6
+        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
+    }
+
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 - (void)viewWillLayoutSubviews {
@@ -22,6 +34,9 @@
     
     // Configure the view.
     SKView * skView = (SKView *)self.view;
+    int width = skView.bounds.size.width;
+    int height = skView.bounds.size.height;
+    NSLog(@"%d,%d",height, width);
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
     

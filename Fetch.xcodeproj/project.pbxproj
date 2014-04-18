@@ -25,6 +25,23 @@
 		7EDB53011811988A00DA82C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDB52DC1811988900DA82C2 /* UIKit.framework */; };
 		7EDB53091811988A00DA82C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB53071811988A00DA82C2 /* InfoPlist.strings */; };
 		7EDB530B1811988A00DA82C2 /* FetchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB530A1811988A00DA82C2 /* FetchTests.m */; };
+		D00E21CC18DFC06D0067A00E /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E21CB18DFC06D0067A00E /* NSMutableArray+Shuffling.m */; };
+		D02212C918BDCBBC007E0C7C /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = D02212B918BDCBBC007E0C7C /* SKAction+SKTExtras.m */; };
+		D02212CA18BDCBBC007E0C7C /* SKAction+SKTSpecialEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = D02212BB18BDCBBC007E0C7C /* SKAction+SKTSpecialEffects.m */; };
+		D02212CB18BDCBBC007E0C7C /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = D02212BD18BDCBBC007E0C7C /* SKEmitterNode+SKTExtras.m */; };
+		D02212CC18BDCBBC007E0C7C /* SKNode+SKTDebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = D02212BF18BDCBBC007E0C7C /* SKNode+SKTDebugDraw.m */; };
+		D02212CD18BDCBBC007E0C7C /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = D02212C118BDCBBC007E0C7C /* SKNode+SKTExtras.m */; };
+		D02212CE18BDCBBC007E0C7C /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = D02212C318BDCBBC007E0C7C /* SKTAudio.m */; };
+		D02212CF18BDCBBC007E0C7C /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = D02212C518BDCBBC007E0C7C /* SKTEffects.m */; };
+		D02212D018BDCBBC007E0C7C /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D02212C718BDCBBC007E0C7C /* SKTTimingFunctions.m */; };
+		D02212D218BFACD6007E0C7C /* character.png in Resources */ = {isa = PBXBuildFile; fileRef = D02212D118BFACD6007E0C7C /* character.png */; };
+		D02212D518C2B77C007E0C7C /* FTQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = D02212D418C2B77C007E0C7C /* FTQuestion.m */; };
+		D02213AD18C42A1C007E0C7C /* BurstParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = D02213AB18C42A1C007E0C7C /* BurstParticle.sks */; };
+		D02213AE18C42A1C007E0C7C /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = D02213AC18C42A1C007E0C7C /* spark.png */; };
+		D02213B118C645D7007E0C7C /* FTGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D02213B018C645D7007E0C7C /* FTGameObject.m */; };
+		D04DA21918D294B0005F3966 /* GameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D04DA21818D294B0005F3966 /* GameData.plist */; };
+		D04DA21B18D91FC4005F3966 /* Spec.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D04DA21A18D91FC4005F3966 /* Spec.rtf */; };
+		D0566E9718E263F7007BA27E /* Dialog.m in Sources */ = {isa = PBXBuildFile; fileRef = D0566E9618E263F7007BA27E /* Dialog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +80,36 @@
 		7EDB53061811988A00DA82C2 /* FetchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FetchTests-Info.plist"; sourceTree = "<group>"; };
 		7EDB53081811988A00DA82C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7EDB530A1811988A00DA82C2 /* FetchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FetchTests.m; sourceTree = "<group>"; };
+		D00E21CA18DFC06D0067A00E /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		D00E21CB18DFC06D0067A00E /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		D02212B818BDCBBC007E0C7C /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		D02212B918BDCBBC007E0C7C /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		D02212BA18BDCBBC007E0C7C /* SKAction+SKTSpecialEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTSpecialEffects.h"; sourceTree = "<group>"; };
+		D02212BB18BDCBBC007E0C7C /* SKAction+SKTSpecialEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTSpecialEffects.m"; sourceTree = "<group>"; };
+		D02212BC18BDCBBC007E0C7C /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		D02212BD18BDCBBC007E0C7C /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		D02212BE18BDCBBC007E0C7C /* SKNode+SKTDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTDebugDraw.h"; sourceTree = "<group>"; };
+		D02212BF18BDCBBC007E0C7C /* SKNode+SKTDebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTDebugDraw.m"; sourceTree = "<group>"; };
+		D02212C018BDCBBC007E0C7C /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		D02212C118BDCBBC007E0C7C /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		D02212C218BDCBBC007E0C7C /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		D02212C318BDCBBC007E0C7C /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		D02212C418BDCBBC007E0C7C /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTEffects.h; sourceTree = "<group>"; };
+		D02212C518BDCBBC007E0C7C /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTEffects.m; sourceTree = "<group>"; };
+		D02212C618BDCBBC007E0C7C /* SKTTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTTimingFunctions.h; sourceTree = "<group>"; };
+		D02212C718BDCBBC007E0C7C /* SKTTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTTimingFunctions.m; sourceTree = "<group>"; };
+		D02212C818BDCBBC007E0C7C /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		D02212D118BFACD6007E0C7C /* character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = character.png; sourceTree = "<group>"; };
+		D02212D318C2B77C007E0C7C /* FTQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTQuestion.h; sourceTree = "<group>"; };
+		D02212D418C2B77C007E0C7C /* FTQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTQuestion.m; sourceTree = "<group>"; };
+		D02213AB18C42A1C007E0C7C /* BurstParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BurstParticle.sks; sourceTree = "<group>"; };
+		D02213AC18C42A1C007E0C7C /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		D02213AF18C645D7007E0C7C /* FTGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGameObject.h; sourceTree = "<group>"; };
+		D02213B018C645D7007E0C7C /* FTGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGameObject.m; sourceTree = "<group>"; };
+		D04DA21818D294B0005F3966 /* GameData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameData.plist; sourceTree = "<group>"; };
+		D04DA21A18D91FC4005F3966 /* Spec.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Spec.rtf; sourceTree = "<group>"; };
+		D0566E9518E263F7007BA27E /* Dialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dialog.h; sourceTree = "<group>"; };
+		D0566E9618E263F7007BA27E /* Dialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dialog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +148,7 @@
 		7EDB52CC1811988900DA82C2 = {
 			isa = PBXGroup;
 			children = (
+				D04DA21A18D91FC4005F3966 /* Spec.rtf */,
 				7EDB52E01811988900DA82C2 /* Fetch */,
 				7EDB53041811988A00DA82C2 /* FetchTests */,
 				7EDB52D71811988900DA82C2 /* Frameworks */,
@@ -132,6 +180,7 @@
 		7EDB52E01811988900DA82C2 /* Fetch */ = {
 			isa = PBXGroup;
 			children = (
+				D02212B718BDCBBC007E0C7C /* SKTUtils */,
 				7E7AA27A187B9BB500D55C24 /* FTGameNode.h */,
 				7E7AA27B187B9BB500D55C24 /* FTGameNode.m */,
 				7EDB52E91811988900DA82C2 /* AppDelegate.h */,
@@ -141,9 +190,21 @@
 				7EDB52F01811988900DA82C2 /* ViewController.m */,
 				7EDB52F21811988900DA82C2 /* GameScene.h */,
 				7EDB52F31811988900DA82C2 /* GameScene.m */,
+				D02212D318C2B77C007E0C7C /* FTQuestion.h */,
+				D02212D418C2B77C007E0C7C /* FTQuestion.m */,
+				D02213AF18C645D7007E0C7C /* FTGameObject.h */,
+				D02213B018C645D7007E0C7C /* FTGameObject.m */,
+				D00E21CA18DFC06D0067A00E /* NSMutableArray+Shuffling.h */,
+				D00E21CB18DFC06D0067A00E /* NSMutableArray+Shuffling.m */,
+				D02212D118BFACD6007E0C7C /* character.png */,
+				D04DA21818D294B0005F3966 /* GameData.plist */,
+				D02213AB18C42A1C007E0C7C /* BurstParticle.sks */,
+				D02213AC18C42A1C007E0C7C /* spark.png */,
 				7EDB52F71811988900DA82C2 /* Images.xcassets */,
 				7E87A1FC1812460C00E3076C /* Assets */,
 				7EDB52E11811988900DA82C2 /* Supporting Files */,
+				D0566E9518E263F7007BA27E /* Dialog.h */,
+				D0566E9618E263F7007BA27E /* Dialog.m */,
 			);
 			path = Fetch;
 			sourceTree = "<group>";
@@ -175,6 +236,30 @@
 				7EDB53071811988A00DA82C2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D02212B718BDCBBC007E0C7C /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D02212B818BDCBBC007E0C7C /* SKAction+SKTExtras.h */,
+				D02212B918BDCBBC007E0C7C /* SKAction+SKTExtras.m */,
+				D02212BA18BDCBBC007E0C7C /* SKAction+SKTSpecialEffects.h */,
+				D02212BB18BDCBBC007E0C7C /* SKAction+SKTSpecialEffects.m */,
+				D02212BC18BDCBBC007E0C7C /* SKEmitterNode+SKTExtras.h */,
+				D02212BD18BDCBBC007E0C7C /* SKEmitterNode+SKTExtras.m */,
+				D02212BE18BDCBBC007E0C7C /* SKNode+SKTDebugDraw.h */,
+				D02212BF18BDCBBC007E0C7C /* SKNode+SKTDebugDraw.m */,
+				D02212C018BDCBBC007E0C7C /* SKNode+SKTExtras.h */,
+				D02212C118BDCBBC007E0C7C /* SKNode+SKTExtras.m */,
+				D02212C218BDCBBC007E0C7C /* SKTAudio.h */,
+				D02212C318BDCBBC007E0C7C /* SKTAudio.m */,
+				D02212C418BDCBBC007E0C7C /* SKTEffects.h */,
+				D02212C518BDCBBC007E0C7C /* SKTEffects.m */,
+				D02212C618BDCBBC007E0C7C /* SKTTimingFunctions.h */,
+				D02212C718BDCBBC007E0C7C /* SKTTimingFunctions.m */,
+				D02212C818BDCBBC007E0C7C /* SKTUtils.h */,
+			);
+			path = SKTUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +340,13 @@
 			files = (
 				7EDB52E51811988900DA82C2 /* InfoPlist.strings in Resources */,
 				7EDB52F81811988900DA82C2 /* Images.xcassets in Resources */,
+				D02212D218BFACD6007E0C7C /* character.png in Resources */,
+				D02213AE18C42A1C007E0C7C /* spark.png in Resources */,
+				D04DA21918D294B0005F3966 /* GameData.plist in Resources */,
 				7E87A20418124CA800E3076C /* Objects.atlas in Resources */,
+				D02213AD18C42A1C007E0C7C /* BurstParticle.sks in Resources */,
 				7EDB52EE1811988900DA82C2 /* Main.storyboard in Resources */,
+				D04DA21B18D91FC4005F3966 /* Spec.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +365,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02212CC18BDCBBC007E0C7C /* SKNode+SKTDebugDraw.m in Sources */,
+				D02212CA18BDCBBC007E0C7C /* SKAction+SKTSpecialEffects.m in Sources */,
 				7EDB52F41811988900DA82C2 /* GameScene.m in Sources */,
 				7EDB52F11811988900DA82C2 /* ViewController.m in Sources */,
+				D00E21CC18DFC06D0067A00E /* NSMutableArray+Shuffling.m in Sources */,
+				D02213B118C645D7007E0C7C /* FTGameObject.m in Sources */,
 				7EDB52EB1811988900DA82C2 /* AppDelegate.m in Sources */,
+				D0566E9718E263F7007BA27E /* Dialog.m in Sources */,
+				D02212CF18BDCBBC007E0C7C /* SKTEffects.m in Sources */,
+				D02212C918BDCBBC007E0C7C /* SKAction+SKTExtras.m in Sources */,
 				7EDB52E71811988900DA82C2 /* main.m in Sources */,
+				D02212CE18BDCBBC007E0C7C /* SKTAudio.m in Sources */,
+				D02212D518C2B77C007E0C7C /* FTQuestion.m in Sources */,
+				D02212CB18BDCBBC007E0C7C /* SKEmitterNode+SKTExtras.m in Sources */,
+				D02212D018BDCBBC007E0C7C /* SKTTimingFunctions.m in Sources */,
 				7E7AA27C187B9BB500D55C24 /* FTGameNode.m in Sources */,
+				D02212CD18BDCBBC007E0C7C /* SKNode+SKTExtras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,10 +508,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fetch/Fetch-Prefix.pch";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
 				INFOPLIST_FILE = "Fetch/Fetch-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -420,10 +535,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fetch/Fetch-Prefix.pch";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
 				INFOPLIST_FILE = "Fetch/Fetch-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
